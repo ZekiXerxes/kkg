@@ -1,8 +1,8 @@
 {
-  "name": "Bluise",
-  "shortName": "Bluise",
-  "description": "A Nuxt.js & Netlify CMS boilerplate.",
-  "themeColor": "#0b3765",
+  "name": "Kids Kingdom",
+  "shortName": "Kids Kingdom",
+  "description": "Begin your baby's journey with us... .\nKids Clothing.\nShop for Exclusive Ethnic Wears, \nNew born baby products, \nCOD available in Mumbai.",
+  "themeColor": "#0000000",
   "backgroundColor": "#ffffff",
   "lang": "en"
 }
