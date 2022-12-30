@@ -1,10 +1,10 @@
 {
   "title": "Kids Kingdom",
   "titleTemplate": "| Kid's Clothing",
-  "welcomeText": "# Yo, I'm Bluise - A Nuxt.js & Netlify CMS boilerplate.\n\nAuthentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.\n\n\n\n\n\nHIIIIIIIIIIIIIIIIIIIIIIIIIIII",
-  "logo": "/images/uploads/kklupscaled.png",
-  "icon": "/images/uploads/kklupscaled.png",
+  "welcomeText": "# Yo, I'm Bluise - A Nuxt.js & Netlify CMS boilerplate.\n\nAuthentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.\n\nHIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+  "logo": "/images/uploads/kklogo.png",
+  "icon": "/images/uploads/kklogo.png",
   "loadingColor": "#0b3765",
   "seoDescription": "Begin your baby's journey with us... .\nKids Clothing.\nShop for Exclusive Ethnic Wears, \nNew born baby products, \nCOD available in Mumbai.",
-  "seoMetaImage": "/images/uploads/kklupscaled.png"
+  "seoMetaImage": "/images/uploads/kklogo.png"
 }
