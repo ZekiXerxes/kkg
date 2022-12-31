@@ -16,7 +16,7 @@
           <g>
             <g>
               <g>
-                © 2022 - Kids Kingdom.
+                <p>© 2022 - Kids Kingdom.</p>
               </g>
             </g>
           </g>
