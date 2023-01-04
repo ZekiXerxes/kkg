@@ -1,31 +1,92 @@
 <template>
-  <footer class="footer -mx-4 md:mx-0">
-    <div class="container mx-auto pb-6 flex justify-center">
-      <a href="https://github.com/Gomah/bluise">
-        <svg
-          baseProfile="tiny"
-          height="32px"
-          fill="white"
-          version="1.1"
-          viewBox="0 0 24 24"
-          width="24px"
-          xml:space="preserve"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
+  <MDBFooter :text="['center', 'white']">
+    <!-- Grid container -->
+    <MDBContainer class="p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <MDBBtn
+          tag="a"
+          color="primary"
+          href="#!"
+          floating
+          style="background-color: #3b5998"
+          class="m-1"
         >
-          <g>
-            <g>
-              <g>
-                <p>© 2022 - Kids Kingdom.</p>
-              </g>
-            </g>
-          </g>
-        </svg>
-      </a>
+          <MDBIcon iconStyle="fab" icon="facebook-f"></MDBIcon>
+        </MDBBtn>
+        <!-- Twitter -->
+        <MDBBtn
+          tag="a"
+          color="primary"
+          href="#!"
+          floating
+          style="background-color: #55acee"
+          class="m-1"
+        >
+          <MDBIcon iconStyle="fab" icon="twitter"></MDBIcon>
+        </MDBBtn>
+        <!-- Google -->
+        <MDBBtn
+          tag="a"
+          color="primary"
+          href="#!"
+          floating
+          style="background-color: #dd4b39"
+          class="m-1"
+        >
+          <MDBIcon iconStyle="fab" icon="google"></MDBIcon>
+        </MDBBtn>
+        <!-- Instagram -->
+        <MDBBtn
+          tag="a"
+          color="primary"
+          href="#!"
+          floating
+          style="background-color: #ac2bac"
+          class="m-1"
+        >
+          <MDBIcon iconStyle="fab" icon="instagram"></MDBIcon>
+        </MDBBtn>
+        <!-- Linkedin -->
+        <MDBBtn
+          tag="a"
+          color="primary"
+          href="#!"
+          floating
+          style="background-color: #0082ca"
+          class="m-1"
+        >
+          <MDBIcon iconStyle="fab" icon="linkedin-in"></MDBIcon>
+        </MDBBtn>
+        <!-- Github -->
+        <MDBBtn
+          tag="a"
+          color="primary"
+          href="#!"
+          floating
+          style="background-color: #333333"
+          class="m-1"
+        >
+          <MDBIcon iconStyle="fab" icon="github"></MDBIcon>
+        </MDBBtn>
+      </section>
+      <!-- Section: Social media -->
+    </MDBContainer>
+    <!-- Grid container -->
+    <!-- Copyright -->
+    <div
+      class="text-center p-3"
+      style="background-color: rgba(0, 0, 0, 0.2)"
+    >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+        >MDBootstrap.com</a
+      >
     </div>
-  </footer>
+    <!-- Copyright -->
+  </MDBFooter>
 </template>
-
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 
