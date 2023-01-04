@@ -100,9 +100,3 @@
     },
   };
 </script>
-
-<style lang="scss">
-.footer {
-  background-color: $bluise;
-}
-</style>
