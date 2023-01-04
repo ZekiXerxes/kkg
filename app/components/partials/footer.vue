@@ -1,6 +1,17 @@
 <template>
   <footer class="footer -mx-4 md:mx-0">
     <div class="container mx-auto pb-6 flex justify-center">
+      <!-- Copyright -->
+    <div
+      class="text-center p-3"
+      style="background-color: rgba(0, 0, 0, 0.2)"
+    >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+        >MDBootstrap.com</a
+      >
+    </div>
+    <!-- Copyright -->
       <a href="https://github.com/Gomah/bluise">
         <svg
           baseProfile="tiny"
