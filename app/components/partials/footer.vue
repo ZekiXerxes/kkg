@@ -87,11 +87,18 @@
     <!-- Copyright -->
   </MDBFooter>
 </template>
-<script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator';
-
-@Component
-export default class Footer extends Vue {}
+<script>
+  import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdb-vue-ui-kit';
+ 
+  export default {
+    components: {
+      MDBFooter,
+      MDBContainer,
+      MDBRow,
+      MDBCol,
+      MDBBtn
+    },
+  };
 </script>
 
 <style lang="scss">
